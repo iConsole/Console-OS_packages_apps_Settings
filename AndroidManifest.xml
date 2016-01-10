@@ -787,6 +787,7 @@
                 android:resource="@id/application_settings" />
         </activity>
 
+<! --
 # Console OS uses Houdini from Intel under license, disabling android-x86 buggybridge
 #        <activity android:name="Settings$AppsCompatibilityActivity"
 #                android:label="@string/apps_compatibility_title"
@@ -802,6 +803,7 @@
 #            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
 #                android:value="true" />
 #        </activity>
+-- >
 
         <!-- Keep compatibility with old shortcuts. -->
         <activity-alias android:name=".applications.ManageApplications"
